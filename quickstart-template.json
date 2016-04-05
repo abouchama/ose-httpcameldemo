@@ -8,12 +8,12 @@
       "iconClass": "icon-java"
     },
     "labels": {},
-    "name": "ose-httpcameldemo"
+    "name": "ose-s2i-cameldemo"
   },
   "parameters": [
     {
       "name": "APP_NAME",
-      "value": "se-httpcameldemo",
+      "value": "ose-s2i-cameldemo",
       "description": "Application Name"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "SERVICE_NAME",
-      "value": "svc-http-camel",
+      "value": "svc-s2i-camel-demo",
       "description": "Exposed Service name"
     },
     {
