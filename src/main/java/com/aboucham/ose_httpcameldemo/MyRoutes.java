@@ -42,12 +42,11 @@ public class MyRoutes extends RouteBuilder {
 
         from(inputEndpoint)
             .beanRef("counterBean")
-            //.to("direct:foo");
-            .to(resultEndpoint);
+            .to("direct:foo");
+               
         
-        /** Second route **/
-        //from("direct:foo")
-        //.to(resultEndpoint);
+        from("direct:foo")
+        .to(resultEndpoint);
     }
 
 }
