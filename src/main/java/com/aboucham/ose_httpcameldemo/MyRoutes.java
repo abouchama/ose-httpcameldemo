@@ -45,6 +45,7 @@ public class MyRoutes extends RouteBuilder {
             //.to("direct:foo");
             .to(resultEndpoint);
         
+        /** Second route **/
         //from("direct:foo")
         //.to(resultEndpoint);
     }
