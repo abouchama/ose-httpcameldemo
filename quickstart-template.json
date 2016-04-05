@@ -281,7 +281,7 @@
                       "(curl -f 127.0.0.1:8778) >/dev/null 2>&1; test $? != 7"
                     ]
                   },
-                  "initialDelaySeconds": 30,
+                  "initialDelaySeconds": 120,
                   "timeoutSeconds": 5
                 },
                 "ports": [
